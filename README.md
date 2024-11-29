@@ -33,4 +33,10 @@ Git是一个开源的分布式版本控制系统，用于敏捷高效地处理�
 - 刚刚添加的文件， 是未跟踪状态，需要使用`git add <file>`命令添加到暂存区，然后使用`git commit -m "commit message"`命令提交到本地仓库。
 
 #### 2.2.2 git文件操作
-1. 添加文件到git仓库 `git add <file>`
+1. 添加文件到git仓库 `git add <file>` `git add *` `git add .` `git commit -a -m "commit message"` 提交所有已修改的文件
+2. git restore <file> 恢复暂存区的指定文件到工作区  git restore --staged <file> 恢复暂存区的指定文件到工作区
+
+3. git rm <file> 删除工作区文件，并且将这次删除放入暂存区
+4. git rm -f <file> 强制删除工作区文件，并且将这次删除放入暂存区
+
+5. git mv [-v] [-f] [-n] [-k] <源文件> <目标文件> 移动或重命名一个文件、一个目录或一个符号链接
