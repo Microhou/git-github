@@ -40,3 +40,13 @@ Git是一个开源的分布式版本控制系统，用于敏捷高效地处理�
 4. git rm -f <file> 强制删除工作区文件，并且将这次删除放入暂存区
 
 5. git mv [-v] [-f] [-n] [-k] <源文件> <目标文件> 移动或重命名一个文件、一个目录或一个符号链接
+
+## git 分支
+1. git branch <branchName>
+2. git checkout <branchName> 
+3. git switch <branchName> 切换分支
+4. git branch -d <branchName> 删除分支
+5. git switch -c <branchName> 创建并切换到新的分支
+
+## git merge 
+1. git merge <branchName> 合并指定分支到当前分支
