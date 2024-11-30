@@ -94,3 +94,8 @@ Git是一个开源的分布式版本控制系统，用于敏捷高效地处理�
 2. git tag -a <tagName> -m "commit message" 创建一个带有说明的标签
 3. git tag -d <tagName> 删除一个标签
 4. git push <远程库> <tagName> 推送一个标签到远程仓库
+> git switch aadd45 --detach option.
+> head 头指针  - 指向哪里，就显示哪里的代码  - 分离头指针， 你可以在分离指针操作，这些操作不会出现在任何分支上。
+5. git switch -c test aa5068  创建并切换到新的分支
+> 可以为提交记录设置标签，设置标签以后，可以通过标签快速的识别出不同的开发节点：
+`git tag version id`
