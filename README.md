@@ -50,3 +50,6 @@ Git是一个开源的分布式版本控制系统，用于敏捷高效地处理�
 
 ## git merge 
 1. git merge <branchName> 合并指定分支到当前分支
+
+## github copilot
+https://github.com/kinfey/GitHubCopilotWorkShop/blob/main/lab/01.Top10Skills.md
