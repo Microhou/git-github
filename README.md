@@ -53,3 +53,4 @@ Git是一个开源的分布式版本控制系统，用于敏捷高效地处理�
 
 ## github copilot
 https://github.com/kinfey/GitHubCopilotWorkShop/blob/main/lab/01.Top10Skills.md
+在VScode 中创建一个这样的文件，copilot-instructions.md
